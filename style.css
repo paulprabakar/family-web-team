@@ -9,3 +9,7 @@ table, th, td {
  th{
       padding: 5px;
   }
+  dl dd{
+      color: brown;
+  }
+  
