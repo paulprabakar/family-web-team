@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css"
         integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css"
         integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet" />
     <title>ibaco</title>
 </head>
@@ -18,54 +18,55 @@
         <label for="lname" style="color: white;">Password</label><br>
         <input type="password" id="pass" name="pass" value="password"><br><br>
         <input type="submit" value="Sign In">
-      </form> 
+    </form>
     <img src="images/ibaco-new.png" alt="img" width="170" height="50" style="margin-top: 15px;"><br>
     <a href="https://www.ibaco.in" style="color:red;">Click Here to View the Link</a>
-    <h3 title="Icecream" style="color:brown;font-size: 28px;">Icecream</h3>
+    <h3 title="Icecream" style="color:black;font-size: 28px;text-shadow:0px 2px 5px #eee;">Icecream</h3>
     <p style="color: white;"><b>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be
             made from dairy milk or
             cream and is flavoured with a sweetener, either sugar or an alternative, and any spice, such as cocoa or
             vanilla. Colourings are usually added, in addition to stabilizers.</b></p>
-    <h3>Menu</h3>
+    <h3 style="color: black;text-shadow:0px 2px 5px #eee;">Menu</h3>
     <table style="width:100%;margin-top: 10px;">
-        <tr style="text-align: center;">
+        <tr class="row">
             <th>Flavour</th>
             <th>Grams</th>
             <th>Price</th>
         </tr>
-        <tr style="text-align: center;">
+        <tr class="row">
             <td>Blackcurrent</td>
             <td>500</td>
             <td>300</td>
         </tr>
-        <tr style="text-align: center;">
+        <tr class="row" id="chocolate">
             <td>Chocolate</td>
             <td>300</td>
             <td>150</td>
         </tr>
-        <tr style="text-align: center;">
+        <tr class="row">
             <td>Butterscotch</td>
             <td>600</td>
             <td>270</td>
         </tr>
     </table>
-    <div class="center">
-        <h3>List</h3>
-        <dl>
-            <dt><b>Flavours</b></dt>
-            <dd>- Almond Crunch</dd>
-            <dd>- Bean Vanilla</dd>
-            <dd>- Caramello</dd>
-            <dd>- Fig 'N' Honey</dd>
-        </dl>
-        <dl>
-            <dt><b>Sauces</b></dt>
-            <dd>- Butterscotch</dd>
-            <dd>- Honey</dd>
-            <dd>- Mango</dd>
-            <dd>- Strawberry</dd>
-        </dl>
+    <div  id="box">
+        <ul class="list">
+            <h4 class="list-head"><b>Flavours</b></h4>
+            <li>Almond Crunch</li>
+            <li>Bean Vanilla</li>
+            <li>Caramello</li>
+            <li>Fig 'N' Honey</li>
+        </ul>
+        <ul class="list">
+            <h4 class="list-head"><b>Sauces</b></h4>
+            <li>Butterscotch</li>
+            <li>Honey</li>
+            <li>Mango</li>
+            <li>Strawberry</li>
+        </ul>
     </div>
+    <h3 style="text-shadow:0px 2px 5px #eee;">Online Payment Mode</h3>
+    <i class="fa fa-credit-card" aria-hidden="true">:Pay using the Credit / Debit Cards</i>
 </body>
 
 </html>
