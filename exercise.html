@@ -12,6 +12,14 @@
 </head>
 
 <body style="background-color:gray">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#payment">Payment</a></li>
+          </ul>
+    </nav>
     <form style="float: right;">
         <label for="username" style="color: white;">User Name</label><br>
         <input type="text" id="username" name="username" value="Abhi" style="margin-bottom: 10px;"><br>
@@ -19,15 +27,15 @@
         <input type="password" id="pass" name="pass" value="password"><br><br>
         <input type="submit" value="Sign In">
     </form>
-    <img src="images/ibaco-new.png" alt="img" width="170" height="50" style="margin-top: 15px;"><br>
+    <img src="images/ibaco-new.png" alt="img" width="170" height="50" style="margin-top: 15px;" id="home"><br>
     <a href="https://www.ibaco.in" style="color:red;">Click Here to View the Link</a>
     <h3 title="Icecream" style="color:black;font-size: 28px;text-shadow:0px 2px 5px #eee;">Icecream</h3>
-    <p style="color: white;"><b>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be
+    <p style="color: white;" id="about"><b>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be
             made from dairy milk or
             cream and is flavoured with a sweetener, either sugar or an alternative, and any spice, such as cocoa or
             vanilla. Colourings are usually added, in addition to stabilizers.</b></p>
     <h3 style="color: black;text-shadow:0px 2px 5px #eee;">Menu</h3>
-    <table style="width:100%;margin-top: 10px;">
+    <table style="width:100%;margin-top: 10px;" id="menu">
         <tr class="row">
             <th>Flavour</th>
             <th>Grams</th>
@@ -49,7 +57,7 @@
             <td>270</td>
         </tr>
     </table>
-    <div  id="box">
+    <div id="box">
         <ul class="list">
             <h4 class="list-head"><b>Flavours</b></h4>
             <li>Almond Crunch</li>
@@ -65,7 +73,7 @@
             <li>Strawberry</li>
         </ul>
     </div>
-    <h3 style="text-shadow:0px 2px 5px #eee;">Online Payment Mode</h3>
+    <h3 style="text-shadow:0px 2px 5px #eee;" id="payment">Online Payment Mode</h3>
     <i class="fa fa-credit-card" aria-hidden="true">:Pay using the Credit / Debit Cards</i>
 </body>
 
