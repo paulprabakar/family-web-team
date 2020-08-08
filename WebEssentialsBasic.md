@@ -1,5 +1,10 @@
-HMTL - What Content
 
-CSS - What Format (Layout, Colors, Border, Padding)
+Separation of Concerns in Web Page Development
 
-Javascript - 
+    HTML - defines the content of the web page
+
+    CSS - defines the presentation (style / look) of the web page
+
+    JavaScript - defines the behavior of the web page
+
+
