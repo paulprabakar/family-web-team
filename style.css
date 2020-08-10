@@ -62,3 +62,19 @@ li {
     padding-right: 18px;
     color: red;
 }
+.flex-container {
+    display: flex;
+    flex-flow:wrap;
+    background-color: gray;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .flex-container > div {
+    background-color: beige;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 16px;
+  }
